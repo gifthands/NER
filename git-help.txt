@@ -10,4 +10,4 @@ git remote add origin XXXX
     之后仓库不是空的，就不用加上-u
     git push origin master
 
-上传项目的过程可能需要等一段时间……
+上传项目的过程可能需要等一段时间
