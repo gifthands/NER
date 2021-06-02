@@ -4,3 +4,10 @@ git config user.email/git config --gloabl user.email
 
 git remote rm origin
 git remote add origin XXXX
+
+    由于新建的远程仓库是空的，所以要加上-u这个参数
+    git push -u origin master
+    之后仓库不是空的，就不用加上-u
+    git push origin master
+
+上传项目的过程可能需要等一段时间……
